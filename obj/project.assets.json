@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ra59563823842\\.nuget\\packages\\": {}
+    "C:\\Users\\Jp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ra59563823842\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
+      "projectUniqueName": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
       "projectName": "atividade-sessao-logica-part2-c-",
-      "projectPath": "C:\\Users\\ra59563823842\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
-      "packagesPath": "C:\\Users\\ra59563823842\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ra59563823842\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\obj\\",
+      "projectPath": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
+      "packagesPath": "C:\\Users\\Jp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ra59563823842\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jp\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

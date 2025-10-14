@@ -1,0 +1,58 @@
+namespace atividade_sessao_logica_part2_c_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Apresentar();
+
+            string tipo = Pedir();
+            int qtd = Quantidade();
+
+            double total = Calculo(tipo, qtd);
+
+            Console.WriteLine($"O total a se pagar é R$ {total:F2}");
+        }
+
+        public static void Apresentar()
+        {
+            Console.WriteLine("------------ PROGRAMA DO INGRESSO DO CINEMA ------------");
+        }
+
+        public static string Pedir()
+        {
+            Console.WriteLine("Me informe qual tipo de ingresso você vai utilizar (meia ou inteira):");
+            string tipo = Console.ReadLine();
+            return tipo;
+        }
+
+        public static int Quantidade()
+        {
+            Console.WriteLine("Me informe a quantidade:");
+            int qtd = Convert.ToInt16(Console.ReadLine());
+            return qtd;
+        }
+
+        public static double Calculo(string tipo, int qtd)
+        {
+            double meia = 14.25;
+            double inteira = 28.5;
+            double resultado = 0;
+
+            if (tipo.ToLower() == "meia")
+            {
+                resultado = meia * qtd;
+            }
+            else if (tipo.ToLower() == "inteira")
+            {
+                resultado = inteira * qtd;
+            }
+            else
+            {
+                Console.WriteLine("Tipo inválido. Use 'meia' ou 'inteira'.");
+            }
+
+            return resultado;
+        }
+    }
+}
