@@ -1,4 +1,4 @@
-﻿namespace atividade_sessao_logica_part2_c_
+namespace atividade_sessao_logica_part2_c_
 {
     class Program
     {
