@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj": {}
+    "C:\\Users\\joaoz\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj": {
+    "C:\\Users\\joaoz\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
+        "projectUniqueName": "C:\\Users\\joaoz\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
         "projectName": "atividade-sessao-logica-part2-c-",
-        "projectPath": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
-        "packagesPath": "C:\\Users\\Jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jp\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\obj\\",
+        "projectPath": "C:\\Users\\joaoz\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\atividade-sessao-logica-part2-c-.csproj",
+        "packagesPath": "C:\\Users\\joaoz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joaoz\\Documents\\GitHub\\atividade-sessao-logica-part2-c-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\joaoz\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

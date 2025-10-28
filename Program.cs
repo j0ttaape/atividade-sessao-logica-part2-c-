@@ -4,12 +4,46 @@
     {
         static void Main(string[] args)
         {
+            Apresentar();
 
+            string cor = CorFarol();
+
+            string resul = Resultado(cor);
+
+            Console.WriteLine($"Resultado: {resul}");
+        }
+
+
+        public static void Apresentar()
+        {
+            Console.WriteLine("PROGRAMA DO FAROL");
+        }
+
+        public static string CorFarol()
+        {
+            Console.WriteLine("Me informe a cor do farol");
+            string cor = Console.ReadLine();
+            return cor;
+        }
+
+        public static string Resultado(string cor)
+        {
+            string resultado;
+
+            if (cor == "vermelho")
+            {
+                resultado = "Espere";
+            }
+            else if (cor == "verde")
+            {
+                resultado = "atravesse";
+            }
+            else
+            {
+                resultado = "farol inoperante";
+            }
+
+            return resultado;
         }
     }
-
-    public static void Apresentar()
-        {
-            Console.WriteLine("")
-        }
 }
