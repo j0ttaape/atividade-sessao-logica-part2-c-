@@ -1,0 +1,75 @@
+using System.Security.Cryptography;
+
+namespace atividade_sessao_logica_part2_c_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Apresentar();
+
+            int mes = PedirDados();
+
+            string resul = Verificacao(mes);
+
+            Console.WriteLine(resul);
+        }
+
+
+        public static void Apresentar()
+        {
+            Console.WriteLine("PROGRAMA DOS DIAS DA SEMANA");
+        }
+
+        public static int PedirDados()
+        {
+            Console.WriteLine("Me informe o dia da semana (obs: 0 = domingo)");
+
+            int semana = Convert.ToInt32(Console.ReadLine());
+
+            return semana;
+        }
+
+        public static string Verificacao(Int32 semana)
+        {
+
+            string resp;
+
+            if (semana == 0)
+            {
+                resp = "O dia selecionado é domingo";
+            }
+            else if (semana == 1)
+            {
+                resp = "O dia selecionado é segunda";
+            }
+            else if (semana == 2)
+            {
+                resp = "O dia selecionado é terça";
+            }
+            else if (semana == 4)
+            {
+                resp = "O dia selecionado é quarta";
+            }
+            else if (semana == 5)
+            {
+                resp = "O dia selecionado é quinta";
+            }
+            else if (semana == 6)
+            {
+                resp = "O dia selecionado é sexta";
+            }
+            else if (semana == 7)
+            {
+                resp = "O dia selecionado é sabado";
+            }
+            else
+            {
+                resp = "Dia invalido";
+            }
+
+            return resp;
+        }
+    }
+}

@@ -26,39 +26,47 @@ namespace atividade_sessao_logica_part2_c_
         {
             Console.WriteLine("Me informe o dia da semana (obs: 0 = domingo)");
 
-            int mes = Convert.ToInt32(Console.ReadLine());
+            int semana = Convert.ToInt32(Console.ReadLine());
 
-            return mes;
+            return semana;
         }
 
-        public static string Verificacao(double mes)
+        public static string Verificacao(Int32 semana)
         {
 
             string resp;
 
-            if (mes == 1)
+            if (semana == 0)
             {
-                resp = "O mês que você selecionou é janeiro";
+                resp = "O dia selecionado é domingo";
             }
-            else if (mes == 2)
+            else if (semana == 1)
             {
-                resp = "O mês que você selecionou é fevereiro";
+                resp = "O dia selecionado é segunda";
             }
-            else if (mes == 3)
+            else if (semana == 2)
             {
-                resp = "O mês que você selecionou é março";
+                resp = "O dia selecionado é terça";
             }
-            else if (mes == 4)
+            else if (semana == 4)
             {
-                resp = "O mês que você selecionou é abril";
+                resp = "O dia selecionado é quarta";
             }
-            else if (mes == 5)
+            else if (semana == 5)
             {
-                resp = "O mês que você selecionou é maio";
+                resp = "O dia selecionado é quinta";
+            }
+            else if (semana == 6)
+            {
+                resp = "O dia selecionado é sexta";
+            }
+            else if (semana == 7)
+            {
+                resp = "O dia selecionado é sabado";
             }
             else
             {
-                resp = "Mês invalido";
+                resp = "Dia invalido";
             }
 
             return resp;
