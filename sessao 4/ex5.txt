@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 
 namespace atividade_sessao_logica_part2_c_
 {
@@ -19,12 +19,12 @@ namespace atividade_sessao_logica_part2_c_
 
         public static void Apresentar()
         {
-            Console.WriteLine("PROGRAMA DOS DIAS DA SEMANA");
+            Console.WriteLine("PROGRAMA DOS MESES");
         }
 
         public static int PedirDados()
         {
-            Console.WriteLine("Me informe o dia da semana (obs: 0 = domingo)");
+            Console.WriteLine("Me informe o mês em número (exemplo: 2 = fevereiro)");
 
             int mes = Convert.ToInt32(Console.ReadLine());
 
@@ -55,6 +55,34 @@ namespace atividade_sessao_logica_part2_c_
             else if (mes == 5)
             {
                 resp = "O mês que você selecionou é maio";
+            }
+            else if (mes == 6)
+            {
+                resp = "O mês que você selecionou é junho";
+            }
+            else if (mes == 7)
+            {
+                resp = "O mês que você selecionou é julho";
+            }
+            else if (mes == 8)
+            {
+                resp = "O mês que você selecionou é agosto";
+            }
+            else if (mes == 9)
+            {
+                resp = "O mês que você selecionou é setembro";
+            }
+            else if (mes == 10)
+            {
+                resp = "O mês que você selecionou é outubro";
+            }
+            else if (mes == 11)
+            {
+                resp = "O mês que você selecionou é novembro";
+            }
+            else if (mes == 12)
+            {
+                resp = "O mês que você selecionou é dezembro";
             }
             else
             {

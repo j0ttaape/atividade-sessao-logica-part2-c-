@@ -42,3 +42,4 @@ C:\Users\joaoz\Documents\GitHub\atividade-sessao-logica-part2-c-\obj\Debug\net9.
 C:\Users\joaoz\Documents\GitHub\atividade-sessao-logica-part2-c-\obj\Debug\net9.0\atividade-sessao-logica-part2-c-.pdb
 C:\Users\joaoz\Documents\GitHub\atividade-sessao-logica-part2-c-\obj\Debug\net9.0\atividade-sessao-logica-part2-c-.genruntimeconfig.cache
 C:\Users\joaoz\Documents\GitHub\atividade-sessao-logica-part2-c-\obj\Debug\net9.0\ref\atividade-sessao-logica-part2-c-.dll
+C:\Users\ra59563823842\Documents\GitHub\atividade-sessao-logica-part2-c-\obj\Debug\net9.0\atividade-sessao-logica-part2-c-.sourcelink.json

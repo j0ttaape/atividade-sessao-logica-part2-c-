@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("atividade-sessao-logica-part2-c-")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c89789aca4b48aedae4a39096d71bf4ec484ac3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bd63de3642de5cb9c8aed84a756fd8ac2bbc54e")]
 [assembly: System.Reflection.AssemblyProductAttribute("atividade-sessao-logica-part2-c-")]
 [assembly: System.Reflection.AssemblyTitleAttribute("atividade-sessao-logica-part2-c-")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
