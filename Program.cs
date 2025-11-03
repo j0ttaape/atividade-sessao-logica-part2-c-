@@ -9,67 +9,42 @@ namespace atividade_sessao_logica_part2_c_
 
             Apresentar();
 
-            int mes = PedirDados();
-
-            string resul = Verificacao(mes);
-
-            Console.WriteLine(resul);
+            double gramas = PedirDados();
         }
 
 
         public static void Apresentar()
         {
-            Console.WriteLine("PROGRAMA DOS DIAS DA SEMANA");
+            Console.WriteLine("PROGRAMA DO SORVETE");
         }
 
-        public static int PedirDados()
+        public static double PedirDados()
         {
-            Console.WriteLine("Me informe o dia da semana (obs: 0 = domingo)");
+            Console.WriteLine("Me informe a quantidade em gramas desejada");
 
-            int semana = Convert.ToInt32(Console.ReadLine());
+            double gramas = Convert.ToDouble(Console.ReadLine());
 
-            return semana;
+            return gramas;
         }
 
-        public static string Verificacao(Int32 semana)
+        public static double Calculos(double gramas)
         {
 
-            string resp;
+            double calculo = ((gramas / 100) * 3.5);
+            double preco = 3.5;
 
-            if (semana == 0)
+            if (calculo >= 1000)
             {
-                resp = "O dia selecionado é domingo";
-            }
-            else if (semana == 1)
-            {
-                resp = "O dia selecionado é segunda";
-            }
-            else if (semana == 2)
-            {
-                resp = "O dia selecionado é terça";
-            }
-            else if (semana == 4)
-            {
-                resp = "O dia selecionado é quarta";
-            }
-            else if (semana == 5)
-            {
-                resp = "O dia selecionado é quinta";
-            }
-            else if (semana == 6)
-            {
-                resp = "O dia selecionado é sexta";
-            }
-            else if (semana == 7)
-            {
-                resp = "O dia selecionado é sabado";
-            }
-            else
-            {
-                resp = "Dia invalido";
-            }
 
-            return resp;
+                preco = 3;
+
+            }
+            else if (calculo < 1000)
+            {
+                
+                
+            }
         }
+
     }
 }
