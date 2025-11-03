@@ -4,53 +4,32 @@
     {
         static void Main(string[] args)
         {
+
             Apresentar();
 
-            double renda = PedirRenda();
-            double gasto = PedirValoresMensais();
+            string mes = PedirDados();
 
-            string resultado = Calculo(renda, gasto);
 
-            Console.WriteLine(resultado);
         }
 
 
         public static void Apresentar()
         {
-            Console.WriteLine("PROGRAMA DO ORÇAMENTO FAMILIAR");
+            Console.WriteLine("PROGRAMA DOS MESES");
         }
 
-        public static double PedirRenda()
+        public static string PedirDados()
         {
-            Console.WriteLine("Me informe a sua renda familiar");
-            double renda = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Me informe o mês em número (exexmplo: 2 = fevereirio)");
 
-            return renda;
+            string mes = Console.ReadLine();
 
+            return mes;
         }
 
-        public static double PedirValoresMensais()
+        public static string Verificacao(string mes)
         {
-            Console.WriteLine("Me informe o valor gasto deste mês");
-            double gasto = Convert.ToDouble(Console.ReadLine());
-
-            return gasto;
-        }
-
-        public static string Calculo(double renda, double gasto)
-        {
-            string resultado;
-
-            if (renda >= gasto)
-            {
-                resultado = "Você está dentro do orçamento!";
-            }
-            else 
-            {
-                resultado = "Você está fora do orçamento! Não gaste mais!";
-            }
-
-            return resultado;
+            if()
         }
     }
 }
